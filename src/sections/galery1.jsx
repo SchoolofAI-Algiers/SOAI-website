@@ -35,9 +35,9 @@ export default function Galery1() {
     },
   ]
   return (
-    <div className='min-h-screen bg-white sm:w-8/12 lg:10/12  xl:6/12 w-8/12 '>
+    <div className='min-h-screen  bg-white sm:w-8/12 lg:10/12  xl:6/12 w-8/12 '>
     <div className='flex justify-center my-4'>
-        <h1 className='text-4xl text-blue font-bold'>Talks and Course</h1>
+        <h1 className='text-4xl text-blue font-bold'>Talks and Courses</h1>
     </div>
     <div className = 'grid sm:grid-cols-2 md:grid-cols-3 grid-rows-2 gap-3 gap-x-6'>
      {courses.map(course => (
