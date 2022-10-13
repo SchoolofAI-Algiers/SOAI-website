@@ -1,23 +1,19 @@
-import React from 'react'
+import Card from "../components/card2";
 
-import Card from '../components/card2'
+import { initalState as cards } from "../components/events";
 
-import { initalState as cards } from '../components/events';
-
-import { Swiper, SwiperSlide } from 'swiper/react'
-import { Pagination } from 'swiper'
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Pagination } from "swiper";
 import "swiper/css";
 import "swiper/css/pagination";
 
 export default function Galery2() {
-    
   return (
-    <div className='bg-white  w-10/12 flex flex-col text-black justify-center'>
-     <div className='m-4 w-full flex justify-center'>
-        <h1 className='text-5xl font-extrabold mt-12'>Main Events</h1>
-     </div>
-     <div className='h-4/12 mb-16 ' >
-     <Swiper
+    <div className="bg-white justify-center min-h-screen w-5/6 flex flex-col text-black">
+      <div className="text-5xl text-center -mt-6 mb-10 font-extrabold">
+        Main Events
+      </div>
+      <Swiper
         slidesPerView={1}
         spaceBetween={5}
         pagination={{
@@ -38,24 +34,14 @@ export default function Galery2() {
           },
         }}
         modules={[Pagination]}
-        className="w-full h-full swiper"
+        className="w-full grid"
       >
-            {
-        
-        cards  
-        .map((card) => (
-          <SwiperSlide>
-          <Card key={card.idx} text={card.text} src={card.src} title={card.title}/>
-
+        {cards.map((card) => (
+          <SwiperSlide key={card.idx} className="flex">
+            <Card text={card.text} src={card.src} title={card.title} />
           </SwiperSlide>
-        ))
-        }
-     </Swiper>
-     </div>
-
-
-    
-
+        ))}
+      </Swiper>
     </div>
-  )
+  );
 }
