@@ -34,7 +34,7 @@ export default function Galery1() {
     },
   ];
   return (
-    <div className="min-h-screen bg-white sm:w-8/12 lg:10/12 xl:6/12 w-8/12">
+    <div className="min-h-screen bg-white sm:w-2/3 lg:5/6 xl:1/6 w-2/3">
       <div className="text-5xl text-blue my-10 font-extrabold text-center">
         Talks and Courses
       </div>
