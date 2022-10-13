@@ -12,11 +12,11 @@ import "swiper/css/pagination";
 export default function Galery2() {
     
   return (
-    <div className='bg-white  w-10/12 flex flex-col text-black justify-center'>
+    <div className='bg-white min-h-screen  w-10/12 flex flex-col text-black justify-start'>
      <div className='m-4 w-full flex justify-center'>
-        <h1 className='text-5xl font-extrabold mt-12'>Main Events</h1>
+        <h1 className='text-5xl font-extrabold my-12'>Main Events</h1>
      </div>
-     <div className='h-4/12 mb-16 ' >
+     <div className='h-full flex-1 ' >
      <Swiper
         slidesPerView={1}
         spaceBetween={5}
@@ -38,16 +38,19 @@ export default function Galery2() {
           },
         }}
         modules={[Pagination]}
-        className="w-full h-full swiper"
+        className="w-full h-full swipe"
       >
             {
         
         cards  
         .map((card) => (
-          <SwiperSlide>
+         
+
+          <SwiperSlide className='slide'>
           <Card key={card.idx} text={card.text} src={card.src} title={card.title}/>
 
           </SwiperSlide>
+       
         ))
         }
      </Swiper>
