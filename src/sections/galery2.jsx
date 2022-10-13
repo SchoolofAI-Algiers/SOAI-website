@@ -1,8 +1,7 @@
 import React from 'react'
 
 import Card from '../components/card2'
-import Carousel from '../components/carousel'
-import Swip from '../components/swiper'
+
 import { initalState as cards } from '../components/events';
 
 import { Swiper, SwiperSlide } from 'swiper/react'
@@ -45,18 +44,10 @@ export default function Galery2() {
         
         cards  
         .map((card) => (
-          <SwiperSlide key={card.idx} className='mb-12 swiper-slide' >
-     <div className='shadow-lg mt-12 shadow-eventBg      border bottom-2 rounded-md  border-eventBg flex flex-col  items-center w-9/12 md:w-full mx-auto md:mx-2 
-     transition duration-200 ease-in transform sm:hover:scale-105'>
-        <div className='bg-eventBg  w-3/5 mt-0 flex justify-center'>
-            <h2 className='text-white text-lg'>{card.title}</h2>
-        </div>
-        <img className='mx-auto my-2' src={card.src} alt='logo' />
-        <div className='bg-black w-10/12 h-0.5 mb-3'>
-        </div>
-        <p className='text-black text-sm   p-4'>{card.text}</p>
-        </div>
-    </SwiperSlide>
+          <SwiperSlide>
+          <Card key={card.idx} text={card.text} src={card.src} title={card.title}/>
+
+          </SwiperSlide>
         ))
         }
      </Swiper>
