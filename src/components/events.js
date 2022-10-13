@@ -13,7 +13,7 @@ export const initalState = [
         pos:2,
           title: 'AI Day ',
           src : 'ai-day.png',
-          text:'Ai day is full journy of workshops and talks for both beginers and advanced people so throw this yearly event students will learn more AI technolgies  and its subFileds'
+          text:'Ai do technolgies  and its subFileds'
       
       },
         {
