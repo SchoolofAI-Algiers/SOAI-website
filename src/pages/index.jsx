@@ -4,6 +4,12 @@ import Greetings from "../sections/Greetings.jsx";
 import Head from "next/head";
 import Galery2 from "../sections/galery2.jsx";
 import Galery1 from "../sections/galery1.jsx";
+import { Swiper, SwiperSlide } from 'swiper/react'
+import { Pagination } from 'swiper'
+import "swiper/css";
+import "swiper/css/pagination";
+
+//import "./styles.css";
 
 function App() {
 
@@ -16,6 +22,8 @@ function App() {
         <Greetings />
         <Galery1/>
         <Galery2/>
+       
+
       </div>
     </>
   );
