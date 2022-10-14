@@ -25,7 +25,7 @@ function Navbar(){
 										smooth={true}
 										offset={50}
 										duration={500}
-										className="cursor-pointer text-white-600 font-semibold px-3 py-2 text-md hover:font-bold"
+										className="cursor-pointer text-white-600 font-semibold px-3 py-2 text-md hover:text-[#43D9DE]"
 									>
 										Home
 									</Link>
@@ -35,7 +35,7 @@ function Navbar(){
 										smooth={true}
 										offset={50}
 										duration={500}
-										className="cursor-pointer text-white-600 font-semibold px-3 py-2 text-md hover:font-bold"
+										className="cursor-pointer text-white-600 font-semibold px-3 py-2 text-md hover:text-[#43D9DE]"
 									>
 										Talks
 									</Link>
@@ -45,7 +45,7 @@ function Navbar(){
 										smooth={true}
 										offset={50}
 										duration={500}
-										className="cursor-pointer text-white-600 font-semibold px-3 py-2 text-md hover:font-bold"
+										className="cursor-pointer text-white-600 font-semibold px-3 py-2 text-md hover:text-[#43D9DE]"
 									>
 										Goals
 									</Link>
@@ -56,7 +56,7 @@ function Navbar(){
 										smooth={true}
 										offset={50}
 										duration={500}
-										className="cursor-pointer text-white-600 font-semibold px-3 py-2 text-md hover:font-bold"
+										className="cursor-pointer text-white-600 font-semibold px-3 py-2 text-md hover:text-[#43D9DE]"
 									>
 										Partners
 									</Link>
@@ -67,7 +67,7 @@ function Navbar(){
 										smooth={true}
 										offset={50}
 										duration={500}
-										className="cursor-pointer text-white-600 font-semibold px-3 py-2 text-md hover:font-bold"
+										className="cursor-pointer text-white-600 font-semibold px-3 py-2 text-md hover:text-[#43D9DE]"
 									>
 										Events
 									</Link>
