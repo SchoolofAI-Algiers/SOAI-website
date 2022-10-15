@@ -1,4 +1,4 @@
-import Hello from "../components/Hello.jsx";
+/*import Hello from "../components/Hello.jsx";
 
 export default function Greetings() {
   return (
@@ -7,3 +7,4 @@ export default function Greetings() {
     </div>
   );
 }
+*/

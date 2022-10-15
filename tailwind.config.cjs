@@ -6,6 +6,7 @@ module.exports = {
       colors: {
         blue: "#002147",
         eventBg: "#7880DF",
+        NBlue: "#180d5b",
       },
     },
   },

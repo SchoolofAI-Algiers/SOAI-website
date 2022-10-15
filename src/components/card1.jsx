@@ -8,7 +8,7 @@ export default function Card1({ title, text, all }) {
      transition duration-200 ease-in transform sm:hover:scale-105`}
     >
       <div className="m-4 mx-auto">
-        <img src="ai-day.png" />
+        <img src="/ai-day.png" />
       </div>
       <div className="pl-4">
         <h1 className="text-2xl font-semibold text-blue">{title}</h1>
