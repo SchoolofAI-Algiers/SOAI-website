@@ -9,7 +9,7 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   return (
     // TO DO: change bg in md to transparent at first then blue maybe
-    <nav className="shadow-sm fixed w-full z-10 md:bg-[#6a6491] bg-white">
+    <nav className="top-0 shadow-sm fixed w-full z-10 md:bg-[#6a6491] bg-white">
       <div className="w-full">
         <div className="flex items-center h-20 w-full">
           <div className="flex items-center mx-20 justify-between w-full">
@@ -23,6 +23,7 @@ export default function Navbar() {
                   <Link
                     key={section}
                     activeClass={section}
+                    spy={true}
                     to={section}
                     smooth={true}
                     offset={50}
@@ -101,6 +102,7 @@ export default function Navbar() {
                 smooth={true}
                 offset={50}
                 duration={500}
+                onClick={() => setIsOpen(false)}
                 className="cursor-pointer hover:bg-NBlue text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium"
               >
                 {section}
