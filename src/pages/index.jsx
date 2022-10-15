@@ -1,26 +1,18 @@
-import { useState } from "react";
-import Greetings from "../sections/Greetings.jsx";
 import Head from "next/head";
-
+import Navbar from "../components/Navbar.jsx";
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
       <Head>
         <title>SOAI website</title>
       </Head>
-      <div className="bg-gray-600 flex flex-col justify-around items-center min-h-screen text-white">
-        <Greetings />
-        <button
-          className="bg-gray-500 rounded-md border px-2"
-          onClick={() => setCount((count) => count + 1)}
-        >
-          count is {count}
-        </button>
+      {/* TO DO: replace background
+      bg color just to see the Navbar */}
+      <div className="bg-[#6a6491] justify-around items-center min-h-screen text-white">
+        <Navbar />
+        <h1 className="text-3xl font-bold underline"></h1>
       </div>
     </>
   );
 }
-
 export default App;
