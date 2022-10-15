@@ -4,8 +4,8 @@ module.exports = {
   theme: {
     extend: {
       opacity: {
-        '54': '.74',
-      }
+        54: ".74",
+      },
     },
   },
   plugins: [],
