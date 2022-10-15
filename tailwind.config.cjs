@@ -4,8 +4,10 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'NBlue': '#180d5b',
-      },  
+        blue: "#002147",
+        eventBg: "#7880DF",
+        NBlue: "#180d5b",
+      },
     },
   },
   plugins: [],
