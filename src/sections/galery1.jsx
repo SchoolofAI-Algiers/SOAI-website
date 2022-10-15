@@ -35,7 +35,7 @@ export default function Galery1() {
   ];
   return (
     <div className="flex flex-col pt-24 justify-center bg-white items-center min-h-screen">
-      <div className="sm:w-2/3 lg:5/6 xl:1/6 w-2/3">
+      <div className="sm:w-2/3 w-2/3">
         <div className="text-5xl text-blue my-10 font-extrabold text-center">
           Talks and Courses
         </div>
