@@ -1,5 +1,11 @@
 import Head from "next/head";
 import Hero from "../sections/Hero";
+import Galery2 from "../sections/Galery2.jsx";
+import Galery1 from "../sections/Galery1.jsx";
+import "swiper/css";
+import "swiper/css/pagination";
+import { Element } from "react-scroll";
+import Navbar from "../components/Navbar.jsx";
 
 function App() {
   return (
@@ -7,9 +13,18 @@ function App() {
       <Head>
         <title>SOAI website</title>
       </Head>
-      <Hero />
+
+      <Navbar />
+      <Element name="Hero">
+        <Hero />
+      </Element>
+      <Element name="Talks">
+        <Galery1 />
+      </Element>
+      <Element name="Events">
+        <Galery2 />
+      </Element>
     </>
   );
 }
-
 export default App;
