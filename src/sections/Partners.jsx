@@ -1,5 +1,5 @@
-import Partner from "../components/Partner";
-import Map from "../components/Map";
+import Partner from "../components/Partners/Partner";
+import Map from "../components/Partners/Map";
 
 export default function Partners() {
   return (

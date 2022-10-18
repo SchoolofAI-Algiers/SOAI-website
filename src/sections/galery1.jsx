@@ -1,4 +1,4 @@
-import Card1 from "../components/Card1";
+import Card1 from "../components/Galeries/Card1";
 
 export default function Galery1() {
   const courses = [

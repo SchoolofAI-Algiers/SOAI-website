@@ -3,8 +3,6 @@ import Partners from "../sections/Partners.jsx";
 import Hero from "../sections/Hero";
 import Galery2 from "../sections/Galery2.jsx";
 import Galery1 from "../sections/Galery1.jsx";
-import "swiper/css";
-import "swiper/css/pagination";
 import { Element } from "react-scroll";
 import Navbar from "../components/Navbar.jsx";
 
@@ -18,7 +16,7 @@ function App() {
       </Head>
 
       <Navbar />
-      <Element name="Hero">
+      <Element name="Home">
         <Hero />
       </Element>
       <Element name="Talks">

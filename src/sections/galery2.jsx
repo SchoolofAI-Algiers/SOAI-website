@@ -1,6 +1,6 @@
-import Card from "../components/Card2";
+import Card from "../components/Galeries/Card2";
 
-import { initalState as cards } from "../components/events";
+import { initalState as cards } from "../components/Galeries/events";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper";
