@@ -15,7 +15,7 @@ export default function Partner({ image, url, title }) {
         alt={title}
         className="transition delay-100 sm:group-hover:scale-[60%] sm:group-hover:-translate-y-6"
       />
-      <div className="-translate-y-4 opacity-0 transition delay-100 font-[Georgia] font-bold text-[#002147] text-2xl sm:text-4xl md:text-5xl sm:group-hover:translate-y-1 sm:group-hover:opacity-100">
+      <div className="-translate-y-4 opacity-0 transition delay-100 font-[Georgia] font-bold text-[#002147] text-2xl sm:text-4xl md:text-5xl xl:text-6xl sm:group-hover:translate-y-1 sm:group-hover:opacity-100">
         {title}
       </div>
     </a>
