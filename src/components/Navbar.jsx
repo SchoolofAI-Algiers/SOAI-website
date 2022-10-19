@@ -9,49 +9,38 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const [bg, setBg] = useState("");
   const [txt, setTxt] = useState("");
-  const [logo, setLogo] = useState("/soai_logo_blue.svg");
+  const [logo, setLogo] = useState("/soai_logo_white.svg");
 
-  const changeBackground = () => {
-    if (window.scrollY > 200) {
+  const changeOnScroll = () => {
+    if (window.scrollY > 100) {
       setBg("bg-blue");
-    } else {
-      setBg("bg-transparent");
-    }
-  };
-
-  const changeLogo = () => {
-    if (window.scrollY > 200) {
       setLogo("/soai_logo_white.svg");
-    } else {
-      setLogo("/soai_logo_blue.svg");
-    }
-  };
-
-  const changeText = () => {
-    if (window.scrollY > 200) {
       setTxt("text-white");
     } else {
-      setTxt("text-blue");
+      setBg("bg-blue lg:bg-transparent");
+      setLogo("/soai_logo_blue.svg");
+      setTxt("text-white lg:text-blue");
     }
   };
 
   useEffect(() => {
-    changeBackground();
-    changeLogo();
-    changeText();
-    window.addEventListener("scroll", changeBackground);
-  });
+    changeOnScroll();
+    window.addEventListener("scroll", changeOnScroll);
+  }, []);
 
   return (
-    <nav className={`top-0 shadow-sm md:shadow-none fixed w-full z-10 ${bg}`}>
+    <nav className={`top-0 shadow-sm lg:shadow-none fixed w-full z-10 ${bg}`}>
       <div className="w-full">
         <div className="flex items-center w-full">
-          <div className="flex items-center mx-20 justify-between w-full">
-            <div className="flex justify-center items-center flex-shrink-0">
+          <div className="flex items-center mx-8 sm:mx-20 justify-between w-full">
+            <div className="lg:flex hidden justify-center items-center">
               <Image src={logo} width="150" height="80" />
             </div>
+            <div className="flex justify-center items-center lg:hidden">
+              <Image src="/soai_logo_white.svg" width="150" height="80" />
+            </div>
 
-            <div className="hidden md:block">
+            <div className="hidden lg:block">
               <div className="ml-10 flex items-baseline space-x-4">
                 {navlinks.map((section) => (
                   <Link
@@ -70,7 +59,7 @@ export default function Navbar() {
               </div>
             </div>
           </div>
-          <div className="mr-10 flex md:hidden">
+          <div className="mr-10 flex lg:hidden">
             <button
               onClick={() => setIsOpen(!isOpen)}
               type="button"
@@ -126,8 +115,8 @@ export default function Navbar() {
         leaveFrom="opacity-100 scale-100"
         leaveTo="opacity-0 scale-95"
       >
-        <div className="md:hidden" id="mobile-menu">
-          <div className="bg-white px-2 pt-2 pb-3 space-y-1 sm:px-3">
+        <div className="lg:hidden" id="mobile-menu">
+          <div className={`px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-white`}>
             {navlinks.map((section) => (
               <Link
                 key={section}
