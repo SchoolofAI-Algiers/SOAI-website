@@ -11,7 +11,7 @@ export default function Galery2() {
   return (
     <div className="flex flex-col justify-center pt-14 text-black bg-white items-center min-h-screen">
       <div className="w-5/6">
-        <div className="text-6xl md:text-5xl text-blue text-center -mt-6 mb-10 font-extrabold">
+        <div className="text-4xl sm:text-5xl text-blue text-center -mt-6 mb-10 font-extrabold">
           Main Events
         </div>
         <Swiper
