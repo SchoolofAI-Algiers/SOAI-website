@@ -29,16 +29,22 @@ export default function Navbar() {
   }, []);
 
   return (
-    <nav className={`top-0 shadow-sm lg:shadow-none fixed w-full z-10 ${bg}`}>
+    <nav className={`top-0 shadow-sm lg:shadow-none fixed w-full z-50 ${bg}`}>
       <div className="w-full">
         <div className="flex items-center w-full">
           <div className="flex items-center mx-8 sm:mx-20 justify-between w-full">
-            <div className="lg:flex hidden justify-center items-center">
+            <Link
+              to="Home"
+              className="cursor-pointer lg:flex hidden justify-center items-center"
+            >
               <Image src={logo} width="150" height="80" />
-            </div>
-            <div className="flex justify-center items-center lg:hidden">
+            </Link>
+            <Link
+              to="Home"
+              className="cursor-pointer flex justify-center items-center lg:hidden"
+            >
               <Image src="/soai_logo_white.svg" width="150" height="80" />
-            </div>
+            </Link>
 
             <div className="hidden lg:block">
               <div className="ml-10 flex items-baseline space-x-4">
