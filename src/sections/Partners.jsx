@@ -3,8 +3,8 @@ import Map from "../components/Partners/Map";
 
 export default function Partners() {
   return (
-    <div className="flex min-h-screen flex-col pt-44 justify-center items-center">
-      <div className="mb-8 font-extrabold text-4xl sm:text-5xl text-blue">
+    <div className="flex pt-20 pb-8 lg:pb-auto lg:pt-24 flex-col justify-center items-center">
+      <div className="mb-10 font-extrabold text-4xl sm:text-5xl text-blue">
         Our Partners
       </div>
       <div className="flex justify-center items-center">

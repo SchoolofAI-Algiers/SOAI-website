@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <div className="lg:h-screen py-36 lg:py-0 w-full bg-blue lg:bg-[url('/hero-bg.svg')] flex flex-col bg-cover bg-center">
+    <div className="lg:h-screen py-52 -mt-14 w-full lg:py-0 lg:-mt-0 bg-blue lg:bg-[url('/hero-bg.svg')] flex flex-col bg-cover bg-center">
       <div className="absolute animate-brain-move hidden lg:block top-1/3 w-40 xl:w-auto right-[15%] xl:right-72">
         <Image src="/brain.svg" alt="" width={200} height={200} />
       </div>

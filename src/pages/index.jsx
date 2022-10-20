@@ -5,6 +5,7 @@ import Galery2 from "../sections/Galery2.jsx";
 import Galery1 from "../sections/Galery1.jsx";
 import { Element } from "react-scroll";
 import Navbar from "../components/Navbar.jsx";
+import ScrollToTop from "../components/ScrollToTop";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
       <Element name="Events">
         <Galery2 />
       </Element>
+      <ScrollToTop />
     </>
   );
 }

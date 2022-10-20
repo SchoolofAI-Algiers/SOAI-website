@@ -35,12 +35,20 @@ export default function Navbar() {
           <div className="flex items-center mx-8 sm:mx-20 justify-between w-full">
             <Link
               to="Home"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
               className="cursor-pointer lg:flex hidden justify-center items-center"
             >
               <Image src={logo} width="150" height="80" />
             </Link>
             <Link
               to="Home"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
               className="cursor-pointer flex justify-center items-center lg:hidden"
             >
               <Image src="/soai_logo_white.svg" width="150" height="80" />
@@ -55,7 +63,7 @@ export default function Navbar() {
                     spy={true}
                     to={section}
                     smooth={true}
-                    offset={50}
+                    offset={-70}
                     duration={500}
                     className="cursor-pointer text-white font-semibold px-3 py-2 text-md hover:text-[#43D9DE]"
                   >
@@ -129,7 +137,7 @@ export default function Navbar() {
                 activeClass={section}
                 to={section}
                 smooth={true}
-                offset={50}
+                offset={-70}
                 duration={500}
                 onClick={() => setIsOpen(false)}
                 className="cursor-pointer hover:bg-blue text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium"
