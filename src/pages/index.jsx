@@ -6,6 +6,7 @@ import Galery1 from "../sections/Galery1.jsx";
 import { Element } from "react-scroll";
 import Navbar from "../components/Navbar.jsx";
 import { Contact } from "../sections/Contact.jsx";
+import Goals from "../sections/Goals.jsx";
 
 function App() {
   return (
@@ -22,6 +23,9 @@ function App() {
       </Element>
       <Element name="Talks">
         <Galery1 />
+      </Element>
+      <Element name="Goals">
+        <Goals />
       </Element>
       <Element name="Partners">
         <Partners />

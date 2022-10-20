@@ -9,6 +9,7 @@ module.exports = {
       colors: {
         blue: "#0F064E",
         eventBg: "#7880DF",
+        cyan: "#43D9DE",
       },
       animation: {
         "brain-move": "keyf 3.5s infinite",

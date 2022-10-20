@@ -65,7 +65,7 @@ export default function Navbar() {
                     smooth={true}
                     offset={-70}
                     duration={500}
-                    className="cursor-pointer text-white font-semibold px-3 py-2 text-md hover:text-[#43D9DE]"
+                    className="cursor-pointer text-white font-semibold px-3 py-2 text-md hover:text-cyan"
                   >
                     {section}
                   </Link>
