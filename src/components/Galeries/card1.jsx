@@ -1,4 +1,4 @@
-export default function Card1({ title, text, all }) {
+export default function Card1({ title, src, text, all }) {
   return (
     <div
       className={`col-span-1 border border-1 
@@ -7,10 +7,10 @@ export default function Card1({ title, text, all }) {
      } 
      transition duration-200 ease-in transform sm:hover:scale-105`}
     >
-      <div className="m-4 mx-auto">
-        <img src="/ai-day.png" />
+      <div className="mx-auto p-4 flex justify-center items-center">
+        <img src={src} />
       </div>
-      <div className="pl-4">
+      <div className="px-4">
         <h1 className="text-2xl font-semibold text-blue">{title}</h1>
         <p className="text-base text-black mb-3 mt-2">{text}</p>
       </div>

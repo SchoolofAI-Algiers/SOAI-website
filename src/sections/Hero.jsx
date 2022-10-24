@@ -8,12 +8,13 @@ export default function Hero() {
           SCHOOL OF AI ALGIERS
         </div>
         <p className="font-semibold text-sm sm:text-lg text-white/80 lg:text-black/54 text-justify">
-          School of Algiers is a local community of developers, students and
-          lovers of artificial intelligence in Algeria and we are a specific
-          club at the higher national school of computer science (ESI Algiers).
-          We organize workshops like AI Day, hackathons like HAIck,
-          international conferences like NeurIPS Algiers Meetup 2021 and many
-          other amazing events.
+          School of AI Algiers is a scientific club, founded in 2018 at the
+          higher national school of computer science (ESI Algiers). It brings
+          young and motivated AI enthusiasts together to unlock their potential
+          in the field and increase their skills working with AI. Therefore, the
+          club organizes plenty of events such as workshops like AI day,
+          hackathons for instance HAIck, and international conferences like
+          NeuIPS Algiers Meetup 2021
         </p>
       </div>
       {/* Elements */}

@@ -11,12 +11,15 @@ export default function Goals() {
           Our goals
         </div>
         <ul className="list-disc flex-col lg:pr-24 text-lg lg:text-2xl space-y-2 marker:text-cyan lg:marker:text-2xl break-words">
-          <li>Help you start your journey in AI</li>
+          <li>Help students step into the fascinating world of AI</li>
           <li>
-            Improve your skills in programmation, research and solve problems
-            using AI
+            Enhance your programming and research skills and improve your
+            problem-solving competence
           </li>
-          <li>Learn new technologies and recent innovations in the AI field</li>
+          <li>
+            Keep up with the latest technologies and the most recent innovations
+            in the AI field
+          </li>
         </ul>
       </div>
     </div>
