@@ -11,7 +11,6 @@ export default function Partner({ image, url, title }) {
       <Image
         layout="fill"
         objectFit="contain"
-        priority
         src={image}
         alt={title}
         className="transition delay-100 sm:group-hover:scale-[60%] sm:group-hover:-translate-y-6"

@@ -8,7 +8,6 @@ export default function Map() {
         objectFit="contain"
         src="/Globe.png"
         alt=""
-        priority
         className="md:opacity-80"
       />
     </div>
