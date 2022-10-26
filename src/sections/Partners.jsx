@@ -19,7 +19,7 @@ export default function Partners() {
           </div>
           <div>
             <Partner
-              image="/Zindi.png"
+              image="/zindi.png"
               url="https://zindi.africa/"
               title="Zindi"
             />
