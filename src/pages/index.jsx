@@ -12,7 +12,7 @@ function App() {
   return (
     <>
       <Head>
-        <title>SOAI website</title>
+        <title>School Of AI Algiers</title>
         <meta name="viewport" content="viewport-fit=cover" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
