@@ -28,7 +28,7 @@ export default function Partners() {
             <Partner
               image="/aimx.png"
               url="https://web.facebook.com/AIMxOfficial/?_rdc=1&_rdr"
-              title="Aimx"
+              title="AIMx"
             />
           </div>
         </div>
