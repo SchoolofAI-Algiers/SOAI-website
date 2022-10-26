@@ -21,6 +21,6 @@ export const initalState = [
     idx: 4,
     title: "HAIck",
     src: "/HAIck.png",
-    text: "",
+    text: "HAIck is the first hackathon of artificial intelligence in Algeria. It offers participants a series of challenges on various problems that several Algerian companies face in their daily activities.",
   },
 ];
