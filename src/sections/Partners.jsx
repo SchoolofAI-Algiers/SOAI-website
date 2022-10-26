@@ -12,21 +12,21 @@ export default function Partners() {
         <div className="flex sm:absolute sm:flex-row flex-col sm:-mt-16 sm:gap-x-16 md:gap-x-28">
           <div className="">
             <Partner
-              image="/NeurIPS.png"
+              image="./NeurIPS.png"
               url="https://nips.cc/"
               title="NeurIPS"
             />
           </div>
           <div>
             <Partner
-              image="/zindi.png"
+              image="./zindi.png"
               url="https://zindi.africa/"
               title="Zindi"
             />
           </div>
           <div>
             <Partner
-              image="/aimx.png"
+              image="./aimx.png"
               url="https://web.facebook.com/AIMxOfficial/?_rdc=1&_rdr"
               title="AIMx"
             />
