@@ -26,7 +26,7 @@ export default function Galery1() {
     {
       id: 4,
       title: "HackRamadan",
-      src: "/",
+      src: "/HackRamadan.png",
       text: "An Ideathon organized in Ramadan. The concept is easy, you’re a participant thus you’ll propose an interesting AI solution for real-world issues. Here’s the link to the previous edition.",
       all: false,
     },
