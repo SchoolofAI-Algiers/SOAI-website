@@ -9,9 +9,9 @@ import "swiper/css/pagination";
 
 export default function Galery2() {
   return (
-    <div className="flex flex-col justify-center pt-20 lg:pt-24 text-black bg-white items-center">
+    <div className="flex flex-col lg:pt-16 justify-center pt-10 text-black bg-white items-center">
       <div className="w-5/6">
-        <div className="text-4xl sm:text-5xl text-blue text-center -mt-6 mb-4 font-extrabold">
+        <div className="text-4xl sm:text-5xl text-blue text-center mb-4 font-extrabold">
           Main Events
         </div>
         <Swiper

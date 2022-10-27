@@ -33,7 +33,9 @@ function App() {
       <Element name="Events">
         <Galery2 />
       </Element>
-      <Contact />
+      <Element name="Contact">
+        <Contact />
+      </Element>
     </>
   );
 }

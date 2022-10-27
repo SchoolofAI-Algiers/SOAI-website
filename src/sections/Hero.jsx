@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <div className="lg:flex justify-between lg:h-screen py-52 -mt-14 w-full lg:py-0 lg:-mt-0 bg-blue lg:bg-[url('/empty-bg.svg')] bg-cover bg-center">
+    <div className="lg:flex justify-between lg:h-screen py-40 -mt-14 w-full lg:py-0 lg:-mt-0 bg-blue lg:bg-[url('/empty-bg.svg')] bg-cover bg-center">
       <div className="lg:w-5/12 lg:h-screen gap-y-10 flex flex-col items-center justify-center px-8 sm:px-16 lg:pr-10 lg:pl-16 lg:items-start">
         <div className="font-extrabold text-4xl w-full text-start sm:text-5xl text-white lg:text-blue">
           SCHOOL OF AI ALGIERS

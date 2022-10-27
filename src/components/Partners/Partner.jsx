@@ -4,7 +4,7 @@ export default function Partner({ image, url, title }) {
       href={url}
       target="_blank"
       rel="noreferrer"
-      className="group relative flex items-center pt-12 justify-center hover:opacity-95 hover:drop-shadow-md"
+      className="group space-y-6 relative flex items-center justify-center hover:opacity-95 hover:drop-shadow-md"
     >
       <img
         src={image}

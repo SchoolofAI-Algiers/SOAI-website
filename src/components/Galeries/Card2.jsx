@@ -11,7 +11,7 @@ export default function Card({ title, src, text }) {
         <img className="mx-auto my-2 p-4" src={src} alt="logo" />
       </div>
       <div className="bg-black w-5/6 h-0.5 mb-3"></div>
-      <p className="text-xs text-justify p-4">{text}</p>
+      <p className="text-xs text-justify p-4 overflow-hidden">{text}</p>
     </div>
   );
 }

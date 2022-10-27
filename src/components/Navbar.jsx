@@ -3,7 +3,7 @@ import { Link } from "react-scroll";
 import Image from "next/image";
 import { useState, useEffect } from "react";
 
-const navlinks = ["Home", "Talks", "Goals", "Partners", "Events"];
+const navlinks = ["Home", "Talks", "Goals", "Partners", "Events", "Contact"];
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
