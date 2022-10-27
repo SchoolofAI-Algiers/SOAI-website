@@ -10,13 +10,11 @@ export default function Partners() {
       <div className="flex justify-center items-center">
         <Map />
         <div className="flex sm:absolute sm:flex-row flex-col sm:-mt-16 sm:gap-x-16 md:gap-x-28">
-          <div className="">
-            <Partner
-              image="/NeurIPS.png"
-              url="https://nips.cc/"
-              title="NeurIPS"
-            />
-          </div>
+          <Partner
+            image="/NeurIPS.png"
+            url="https://nips.cc/"
+            title="NeurIPS"
+          />
           <div>
             <Partner
               image="/zindi.png"
