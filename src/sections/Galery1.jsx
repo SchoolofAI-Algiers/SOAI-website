@@ -6,7 +6,7 @@ export default function Galery1() {
       id: 1,
       title: "Reading Sessions",
       src: "/ReadingSession.png",
-      text: "Each Friday at 7 pm, we discuss the content of a scientific paper. Take a look at the previous sessions here.",
+      text: "Each Friday at 8 pm, we discuss the content of a scientific paper. Take a look at the previous sessions here.",
       all: false,
     },
     {
