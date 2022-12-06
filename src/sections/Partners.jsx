@@ -17,16 +17,9 @@ export default function Partners() {
           />
           <div>
             <Partner
-              image="/zindi.png"
-              url="https://zindi.africa/"
-              title="Zindi"
-            />
-          </div>
-          <div>
-            <Partner
-              image="/aimx.png"
-              url="https://web.facebook.com/AIMxOfficial/?_rdc=1&_rdr"
-              title="AIMx"
+              image="/datacamp.png"
+              url="https://www.datacamp.com/donates"
+              title="DataCamp"
             />
           </div>
         </div>
